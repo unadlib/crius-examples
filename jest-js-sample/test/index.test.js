@@ -1,6 +1,6 @@
 import { autorun, title, Scenario, Given, When, Then, Step } from 'crius-test';
 
-@autorun(it)
+@autorun(test)
 @title('Test user add todo item')
 class TestTodoList extends Step {
   run() {
